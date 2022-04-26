@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza project | | 3-oy imtihon </title>
+  <link rel="shortcut icon" href="./img/pizza-rounded.png">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <h1 class=" text-center h3 text-danger my-4">
+      <img class="heading-img" src="img/pizza-rounded.png" alt="pizza img" width="80" height="80">
+      Pitsa buyurtma qilish
+    </h1>
+    <form class="main-form__wrapper row" method="POST" action="https://echo.htmlacademy.ru">
+      <div class="survey__wrapper col-12 col-md-8 border-right">
+        <div class="form-group border-bottom pb-4">
+          <label class="h6 text-danger font-weight-bold" for="selection">Noni qanday bo`lsin?</label>
+          <select class="js-selection__size custom-select" name="selection_size" id="selection">
+            <option value="select size" selected disabled>Non hajmi</option>
+          </select>
+        </div>
+        <div class="form-group  border-bottom pb-3">
+          <h2 class="h6 text-danger font-weight-bold">Kattaligi</h2>
+          <div class="js-radio__size-box d-flex align-items-center"></div>
+        </div>
+        <div class="form-group js-additions__box  border-bottom pb-3">
+          <h2 class="h6 text-danger font-weight-bold">Qo`shimchalar</h2>
+        </div>
+        <div class="form-group js-products__box  border-bottom pb-3">
+          <h2 class="h6 text-danger font-weight-bold">Ustiga nima solaylik?</h2>
+        </div>
+      </div>
+      <div class="result__wrapper col-12 col-md-4">
+        <div class="form-group">
+          <p class="font-weight-bold text-danger">Non:
+            <span class="text-dark js-selection__size-result font-weight-normal font-italic"></span>
+          </p>
+        </div>
+        <div class="form-group">
+          <p class="font-weight-bold text-danger">Kattaligi:
+            <span class="text-dark js-radio__size-box-result font-weight-normal font-italic"></span>
+          </p>
+        </div>
+        <div class="form-group">
+          <p class="font-weight-bold text-danger">Ustida:
+            <span class="text-dark js-poducts-result font-weight-normal d-block"></span>
+          </p>
+        </div>
+        <div class="form-group">
+          <p class="font-weight-bold text-danger">Qo`shimcha:
+            <span class="text-dark  js-additions-result font-weight-normal d-block"></span>
+          </p>
+        </div>
+        <button class="btn btn-danger  text-light shadow-lg p-3 mb-5 btn-dark rounded" type="submit">Buyurtma
+          berish</button>
+      </div>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

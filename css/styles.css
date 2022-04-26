@@ -1,0 +1,30 @@
+* {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+ }
+
+ body {
+   background-image: url(../img/bakcground-pizza-img.jpg);
+   background-size: cover;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   font-family: "Arial", "sans-serif";
+   font-size: 16px;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+   color:#fff;
+ }
+
+ .heading-img:hover {
+   transition: all 1s;
+   transform: scale(1.2);
+ }
+
+ .btn:hover {
+   transition: all 1s;
+   transform: scale(1.07);
+   -webkit-text-fill-color: black;
+   background-color: white;
+ }
