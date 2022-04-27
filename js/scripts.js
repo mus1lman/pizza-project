@@ -92,7 +92,7 @@ for (var i = 0; i < productOptions.length; i++) {
 
 };
 
-var additionsCoosen = [];
+var additionsChoosen = [];
 
 for (var i = 0; i < additonOptions.length; i++) {
 
